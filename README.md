@@ -38,3 +38,6 @@ cmake ..
 ```
 
 Depending on the system, this will generate either a `.sln` project on Windows or a `make` file for a Linux system. 
+
+# Explanation
+This error is due to a limiation in CUDA explained [here](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#extended-lambda-restrictions) (point 15 under Extended Lambda Restrictions) 
